@@ -1,7 +1,7 @@
 name: Calculator
 id: com.grimoire.calculator
 type: widget
-version: 1.0.0
+version: 1.1.0
 author: Nebuff
 description: A working four-function calculator with percent, sign and backspace.
 license: MIT
@@ -16,6 +16,7 @@ capabilities: []
 spec:
   runtime: native
   entry: calculator
+  icon: calculator
   minimizable: true
   size:
     mode: resizable

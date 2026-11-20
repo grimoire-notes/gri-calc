@@ -19,6 +19,7 @@ Then open **Widgets** on the editor toolbar and choose **Calculator**.
 - Percent, sign change, decimal point, backspace and clear.
 - Dividing by zero shows `Error`; AC or a digit starts again.
 - The frame can be moved, resized, minimized and closed like any widget.
+- Uses Grimoire's calculator icon in the widget list and the frame's title bar (`spec.icon: calculator`).
 
 The package uses Grimoire's built-in native calculator runtime (`spec.runtime: native`,
 `spec.entry: calculator`). The artifact is still size- and SHA-256-checked at install time.
