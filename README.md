@@ -1,6 +1,6 @@
 # gri-calc
 
-A calculator widget for [Grimoire](https://github.com/nebuff/grimoire-scribe).
+A calculator widget for [Grimoire](https://github.com/grimoire-notes/grimoire-scribe).
 
 ## Install
 
@@ -8,7 +8,7 @@ In Grimoire:
 
 1. Open **Settings → Packages → Widgets**.
 2. Tap **Install from repository...**.
-3. Enter `nebuff/gri-calc`.
+3. Enter `grimoire-notes/gri-calc`.
 4. Read the trust warning and continue.
 
 Then open **Widgets** on the editor toolbar and choose **Calculator**.
