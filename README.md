@@ -44,8 +44,9 @@ the first enabled one; if every mode is disabled, Simple stays on. A mode turned
 is showing it falls back to the first enabled mode.
 
 The widget is a WebAssembly module (`spec.runtime: wasm`) and draws through Grimoire's generic
-widget ABI. Nothing about the calculator is built into Grimoire: it installs and runs from this
-repository like any other widget package.
+widget ABI. It declares the `editor:overlay` capability, which Grimoire requires before a package
+may draw over the editor; without it the import is refused. Nothing about the calculator is built
+into Grimoire: it installs and runs from this repository like any other widget package.
 
 ## Build
 
