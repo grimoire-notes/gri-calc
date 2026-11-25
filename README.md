@@ -15,11 +15,19 @@ Then open **Widgets** on the editor toolbar and choose **Calculator**.
 
 ## What it does
 
-- **Simple**: add, subtract, multiply and divide, with percent, sign change, decimal point, backspace and clear.
-- **Scientific**: an expression reader with parentheses, `sin`, `cos` and `tan` in degrees, `ln`, `log`, square root, powers, π and e.
-- **Programming**: decimal, hexadecimal, binary and octal, with bitwise AND/OR/XOR/NOT, shifts, MOD, power, and a converter for length, mass, data and temperature.
-- A mode bar at the top of the frame switches between the three calculators. Each mode keeps its own screen.
-- Dividing by zero shows `Error`; AC or a digit starts again.
+- **Simple**: types the whole sum as you go (`5+5`, then `=`), with parentheses, percent, sign change,
+  decimal point, backspace and clear. The smaller line above the answer previews the result while you
+  type; after `=` the sum moves up to that line and the answer takes its place.
+- **Scientific**: an expression reader with parentheses, `sin`, `cos` and `tan` in degrees, `ln`, `log`,
+  square root, powers, π and e. It previews the result above the answer the same way.
+- **Programming**: decimal, hexadecimal, binary and octal, with bitwise AND/OR/XOR/NOT, shifts, MOD,
+  power, and a converter for length, mass, data and temperature.
+- **Finance**: mortgage repayment, compound interest, simple interest and a savings goal. Tap a field
+  (loan/principal, rate, years) and type with the keypad; the results update as you type.
+- **Graphing**: type a formula for `y` using `x`, powers, π, e, `sin`, `cos`, `tan`, `ln`, `log` and
+  square root, and the curve is plotted against axes with range labels. It redraws on every key.
+- A mode bar at the top of the frame switches between the five calculators. Each mode keeps its own screen.
+- Dividing by zero shows `Error`; AC starts again, and backspace repairs a mistyped expression.
 - The frame can be moved, resized, minimized and closed like any widget.
 
 ## Settings
@@ -27,9 +35,9 @@ Then open **Widgets** on the editor toolbar and choose **Calculator**.
 The package's settings page chooses what a new calculator window opens with and which modes the
 mode bar offers:
 
-- **Default calculator**: Simple, Scientific or Programming.
-- **Simple calculator**, **Scientific calculator**, **Programming calculator**: turn individual
-  modes on or off.
+- **Default calculator**: Simple, Scientific, Programming, Finance or Graphing.
+- **Simple calculator**, **Scientific calculator**, **Programming calculator**, **Finance calculator**,
+  **Graphing calculator**: turn individual modes on or off.
 
 A disabled mode is left out of the mode bar. If the default mode is disabled, the window opens on
 the first enabled one; if every mode is disabled, Simple stays on. A mode turned off while a frame

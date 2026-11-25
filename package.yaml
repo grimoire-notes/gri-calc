@@ -1,24 +1,24 @@
 name: Calculator
 id: com.grimoire.calculator
 type: widget
-version: 1.2.0
+version: 1.3.0
 author: Nebuff
-description: Simple, scientific and programming calculators, with a unit converter.
+description: Simple, scientific, programming, finance and graphing calculators, with a unit converter.
 license: MIT
 repository: https://github.com/nebuff/gri-calc
 min_grimoire_version: 2.1.0
 platforms: [all]
 artifact:
   path: calculator.bin
-  sha256: cbdded0a54dfea3029f85dfe92ecb016dfd4ebe5be9f08ab55c15309269f42cb
-  size: 106958
+  sha256: 3bc3f3ffb567dc7274871ec73d5d7bf39d3fd10ae074e6ed872274d0a6158de6
+  size: 129728
 capabilities: []
 settings:
   - key: default_calculator
     label: Default calculator
     type: choice
     default: Simple
-    choices: [Simple, Scientific, Programming]
+    choices: [Simple, Scientific, Programming, Finance, Graphing]
   - key: enable_simple
     label: Simple calculator
     type: toggle
@@ -29,6 +29,14 @@ settings:
     default: true
   - key: enable_programming
     label: Programming calculator
+    type: toggle
+    default: true
+  - key: enable_finance
+    label: Finance calculator
+    type: toggle
+    default: true
+  - key: enable_graphing
+    label: Graphing calculator
     type: toggle
     default: true
 spec:
